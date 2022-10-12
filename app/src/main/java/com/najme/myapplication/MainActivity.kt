@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity(),  FoodAdapter.FoodEvents{
      val binding=ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
         foodList = arrayListOf(
             Food(
                 "Hamburger",
