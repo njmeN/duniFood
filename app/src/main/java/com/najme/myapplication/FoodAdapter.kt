@@ -12,8 +12,7 @@ import android.widget.Toast
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-
-
+import ir.dunijet.dunifoodsimple.R
 
 
 class FoodAdapter(private val foodData: ArrayList<Food>, private val foodEvents: FoodEvents) :
